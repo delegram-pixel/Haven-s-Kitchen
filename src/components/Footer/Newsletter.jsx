@@ -1,4 +1,4 @@
-import images from '../../constants/images';
+
 import './Newsletter.css';
 const Newsletter = () => {
     return (
