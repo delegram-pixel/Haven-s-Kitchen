@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // import images from "../../constants/images";
 import data from "../../constants/data";
-import { SubHeading, MenuItem } from "../../components";
+import { MenuItem } from "../../components";
 import images from '../../constants/images';
 
 import "./SpecialMenu.css";
