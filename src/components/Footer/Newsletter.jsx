@@ -1,12 +1,12 @@
-
-import SubHeading from '../SubHeading/SubHeading';
+import images from '../../constants/images';
 import './Newsletter.css';
 const Newsletter = () => {
     return (
         <div className='app__newsletter'>
             <div className="app__newsletter-heading">
 
-           <SubHeading title="Newsletter"/>
+            <p className="p__cormorant text-white">Newsletter</p>
+            
          <h1 className='headtext__cormorant'>Subscribe To Our Newsletter</h1>
         <p className='p__opensans'>And Never Miss latest Updates!</p>
             </div>

@@ -10,7 +10,7 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <p className="p__cormorant text-white">Menu that fits your Palatte</p>
-      <img src={images.spoon} alt="spoon" className=' flex justify-center pl-52' />
+      <img src={images.spoon} alt="spoon" className=' flex justify-center pl-16' />
       <h1 className="headtext__cormorant">Today's Special</h1>
     </div>
 

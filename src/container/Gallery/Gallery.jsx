@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { SubHeading } from '../../components';
@@ -28,9 +29,7 @@ return(
     <div className="app__gallery-content">
       <SubHeading title="Instagram"/>
       <h1 className='headtext__cormorant'>Photo Gallery</h1>
-        <p className='p__opensans' style={{color: "#AAA", marginTop: '2rem'}}> Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        <p className='p__opensans pb-7' style={{color: "#AAA", marginTop: '2rem'}}> Here, you'll find a stunning collection of our most mouthwatering dishes, vibrant celebrations, and unforgettable moments captured by our wonderful guests.</p>
 
             <a href={`Photo`} className='custom__button'>View More</a>
 
