@@ -13,7 +13,7 @@ const [toggleMenu, setToggleMenu] = React.useState(false);
     <div className="app__navbar-logo">
       <a href="#home">
 
-      <h1 className="text-white text-lg font-black pl-14">HAVEN'S</h1>
+      <h1 className="text-white text-lg font-black md:pl-14 pl-5">HAVEN'S</h1>
       </a>
     </div>
 
@@ -40,9 +40,9 @@ const [toggleMenu, setToggleMenu] = React.useState(false);
         Login
       </a>
       <div />
-      {/* <a href="/" className="p__opensans">
-        Book Table
-      </a> */}
+      <a href="/" className="p__opensans">
+        Order Now
+      </a>
     </div>
 
     <div className="app__navbar-smallscreen">

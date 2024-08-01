@@ -45,7 +45,8 @@
 .app__footer-links_icons{
     margin-top: 0.5rem;
     display: flex;
-    padding-left: 75px;
+ 
+    justify-content: center;
 }
 
 .app__footer-links_icons svg{

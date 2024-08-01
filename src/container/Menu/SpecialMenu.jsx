@@ -2,13 +2,15 @@
 // import images from "../../constants/images";
 import data from "../../constants/data";
 import { SubHeading, MenuItem } from "../../components";
+import images from '../../constants/images';
 
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits your Palatte" />
+      <p className="p__cormorant text-white">Menu that fits your Palatte</p>
+      <img src={images.spoon} alt="spoon" className=' flex justify-center pl-52' />
       <h1 className="headtext__cormorant">Today's Special</h1>
     </div>
 
